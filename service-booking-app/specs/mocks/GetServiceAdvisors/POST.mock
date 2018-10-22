@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+{
+  "Results": {
+    "AdvisorData": [
+      {
+        "AdvisorID": "JSM",
+        "AdvisorName": "John Smith"
+      },
+      {
+        "AdvisorID": "TGL",
+        "AdvisorName": "Tom Glover"
+      }
+    ]
+  },
+  "PreferredSA": "JBO",
+  "PreferredSAName": "James Bond",
+  "PreferredSAAvailToday": true,
+  "Result": {
+    "ErrorCode": 0
+  }
+}

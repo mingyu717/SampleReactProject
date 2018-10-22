@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="21px" viewBox="0 0 13 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Back</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI-Check-your-car-details" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-10.000000, -32.000000)">
+        <g id="Back" transform="translate(10.000000, 32.000000)" fill="#00B1EB">
+            <polygon id="Back-Chevron" points="0 10.2525253 10.2525253 0 12.2053872 1.95286195 3.90572391 10.2525253 12.2053872 18.5521886 10.2525253 20.5050505"></polygon>
+        </g>
+    </g>
+</svg>

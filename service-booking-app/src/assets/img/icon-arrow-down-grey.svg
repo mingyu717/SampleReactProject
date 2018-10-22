@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Back Chevron</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI-Year&amp;model-Edit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-281.000000, -244.000000)">
+        <polygon id="Back-Chevron" fill="#464C4E" transform="translate(290.000000, 249.000000) scale(1, -1) rotate(90.000000) translate(-290.000000, -249.000000) " points="285 249 293.4 240 295 241.714286 288.2 249 295 256.285714 293.4 258"></polygon>
+    </g>
+</svg>

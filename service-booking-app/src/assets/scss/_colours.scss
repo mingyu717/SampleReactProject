@@ -1,0 +1,25 @@
+$black: #111111;
+$black50: hsla(0, 0%, 0%, 0.5);
+$black20: hsla(0, 0%, 0%, 0.2);
+
+$white: #ffffff;
+$white70: rgba($white, 0.7);
+
+$darkblue: #0e446a;
+$dark-blue15: rgba($darkblue, 0.15);
+$dark-blue5: rgba($darkblue, 0.05);
+
+$blue: #00b1eb;
+$blue80: rgba($blue, 0.8);
+$light-blue: lighten($blue, 35%);
+
+$pale-blue: #f1f5f6;
+
+$grey: #464c4e;
+$light-grey: rgba($grey, 0.2);
+
+$blue-grey: #6e7b81;
+$pale-bluegrey: lighten($blue-grey, 40%);
+
+$orange: #f5a623;
+$red: #ff3b30;

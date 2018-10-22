@@ -1,0 +1,12 @@
+# top-most EditorConfig file
+root = true
+
+# 2 space indentation
+[*]
+indent_style = space
+indent_size = 2
+
+# Bitbucket Markdown syntax required
+[{API.md}]
+indent_style = space
+indent_size = 4

@@ -1,0 +1,614 @@
+.card {
+  background: $white;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px 1px $dark-blue15;
+  padding: 0.625rem;
+  margin-top: 0.625rem;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: 1fr;
+
+  &-full-width {
+    padding: 0.625rem 0;
+  }
+
+  &__image {
+    margin: 24px auto 8px;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__cta {
+    text-align: center;
+  }
+}
+
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 12px;
+
+  .sk-spinner {
+    color: $blue80;
+    width: 40px;
+    height: 40px;
+  }
+
+  span {
+    @extend .text-tiny;
+  }
+}
+
+.loader-wrapper {
+  position: relative;
+
+  .loader-overlay {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    bottom: -5px;
+    right: -5px;
+    background-color: $white70;
+  }
+}
+
+.progress {
+  display: grid;
+  grid-column: 1 / -1;
+  justify-items: center;
+  align-items: center;
+
+  &__number {
+    width: 17px;
+    height: 17px;
+    background: $light-grey;
+    border-radius: 50%;
+    color: $white;
+    font-size: 11px;
+    display: inline-grid;
+    justify-items: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 12px;
+    position: relative;
+
+    &:before {
+      content: " ";
+      display: block;
+      position: absolute;
+      right: 17px;
+      top: 8px;
+      width: 25px;
+      height: 1px;
+      background: $light-grey;
+    }
+
+    &:first-child {
+      &:before {
+        display: none;
+      }
+    }
+
+    &.selected {
+      background: $blue;
+    }
+  }
+}
+
+.home {
+  text-align: center;
+  overflow: hidden;
+  min-height: 100vh;
+
+  header {
+    background: $white;
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 6.5rem;
+
+    .logo {
+      width: 46px;
+      height: 46px;
+      margin: auto;
+      margin-bottom: 6px;
+    }
+  }
+
+  .hero-image {
+    position: relative;
+    width: 190px;
+    height: 190px;
+  }
+
+  main {
+    position: relative;
+    margin-top: -3.5rem;
+
+    svg {
+      z-index: -1;
+      position: absolute;
+      top: 3.5rem;
+      left: 0;
+      width: 100%;
+      height: 30vw;
+    }
+  }
+}
+
+.error-page {
+  min-height: 100vh;
+  padding: 1rem;
+  text-align: center;
+  background: $white;
+
+  .close-btn-wrapper {
+    display: grid;
+    justify-items: right;
+    margin-bottom: 32px;
+
+    .close-btn {
+      display: block;
+      width: 20px;
+      height: 20px;
+      opacity: 0.4;
+    }
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 382px;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  p {
+    margin-bottom: 32px;
+  }
+}
+
+.review-time {
+  display: grid;
+  grid-gap: 8px;
+  text-align: center;
+  padding: 8px 0;
+
+  & > * {
+    margin: 0;
+  }
+
+  .time-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border-top: 1px solid $pale-bluegrey;
+    border-bottom: 1px solid $pale-bluegrey;
+
+    &__item {
+      display: grid;
+      padding: 12px 4px;
+      justify-self: stretch;
+      align-self: stretch;
+
+      &:first-child {
+        border-right: 1px solid $pale-bluegrey;
+      }
+
+      & > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          margin: 5px;
+        }
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.cart {
+  padding-bottom: 50px;
+  &__car-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    align-items: center;
+    padding: 3rem 0 2rem;
+
+    .desc {
+      padding: 0 1rem 0 0;
+    }
+  }
+
+  &-list {
+    grid-gap: 0;
+    padding: 0;
+    .list__item {
+      display: grid;
+      grid-column-gap: 1rem;
+      grid-row-gap: 0.4rem;
+      grid-template-columns: auto 4rem 1rem;
+      border-top: 1px solid $pale-bluegrey;
+      padding: 1rem;
+
+      .remove-btn {
+        display: inline-block;
+        justify-self: center;
+        line-height: 100%;
+
+        span {
+          opacity: 0.7;
+          width: 1rem;
+          height: 1rem;
+          vertical-align: middle;
+        }
+      }
+
+      .item__desc {
+        color: $blue-grey;
+        grid-column: span 2;
+      }
+    }
+  }
+}
+
+.single-select-list {
+  .card {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    transition: all 300ms ease;
+
+    &.selected {
+      box-shadow: 0 1px 4px 2px $dark-blue15, 0 0 0 1px $blue;
+    }
+  }
+
+  .icon-with-link {
+    margin: 0 8px;
+    color: $blue;
+    text-align: center;
+    display: inline-grid;
+    grid-gap: 8px;
+    align-items: center;
+    justify-items: center;
+
+    img {
+      max-width: 44px;
+      height: 28px;
+    }
+
+    .icon-arrow-down {
+      width: 10px;
+      height: 5px;
+      margin-left: 4px;
+      display: inline-block;
+      transition: all 300ms ease;
+    }
+
+    &.toggled {
+      color: $blue-grey;
+
+      p {
+        color: $blue-grey;
+      }
+
+      .icon-arrow-down.reversed {
+        transform: rotate(-180deg);
+        transition: all 300ms ease;
+      }
+    }
+
+    &.disable {
+      p {
+        color: $blue-grey;
+      }
+      pointer-events: none;
+    }
+  }
+
+  .desc {
+    color: $grey;
+    font-weight: 300;
+    line-height: 150%;
+    margin-bottom: 0.5rem;
+    ol {
+      margin-left: 1.8rem;
+      list-style-position: outside;
+
+      & > li {
+        padding-left: 0.6rem;
+      }
+    }
+  }
+
+  .radio-button {
+    .tick-icon {
+      width: 30px;
+      height: 30px;
+      margin-right: 8px;
+      padding: 4px;
+      border: 1px solid $blue;
+      border-radius: 50%;
+      display: inline-grid;
+      justify-items: center;
+      align-items: center;
+      transition: all 200ms ease;
+
+      svg {
+        path {
+          fill: $white;
+        }
+      }
+    }
+
+    span {
+      vertical-align: middle;
+    }
+
+    &.selected {
+      .tick-icon {
+        background-color: $blue;
+      }
+    }
+  }
+}
+
+.additional-services {
+  .tab {
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    color: $blue-grey;
+    padding: 10px 15px;
+    border-bottom: 1px solid $blue-grey;
+    cursor: pointer;
+
+    &.current {
+      color: $blue;
+      border-bottom: 2px solid $blue;
+    }
+  }
+
+  .card {
+    box-shadow: 0 1px 4px 2px $dark-blue5;
+    grid-gap: 8px;
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+    justify-items: center;
+    align-items: center;
+
+    .title-icon {
+      width: 1rem;
+      height: 1rem;
+    }
+
+    .title {
+      width: 100%;
+      display: inline-grid;
+      justify-self: left;
+    }
+
+    .add-to-cart-button {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: inline-grid;
+      justify-items: center;
+      align-items: center;
+      background-color: $blue;
+      padding: 6px;
+
+      svg {
+        path {
+          fill: $white;
+          stroke: $white;
+          stroke-width: 0.5px;
+        }
+      }
+    }
+  }
+}
+
+.tabs {
+  margin: 16px 0 0 0;
+  padding: 0px;
+  list-style: none;
+
+  .tab-time {
+    width: auto;
+    display: inline-block;
+    color: $blue-grey;
+    padding: 4px 12px;
+    font-size: 1rem;
+
+    &.current {
+      color: $blue;
+    }
+
+    &.disabled {
+      color: $pale-bluegrey;
+    }
+  }
+}
+
+.item-time {
+  height: 30px;
+  @extend %-light;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+
+  &.available {
+    color: $blue;
+  }
+
+  &.unavailable {
+    pointer-events: none;
+    color: $pale-bluegrey;
+  }
+
+  &.selected,
+  &:focus {
+    border: 1px solid $blue;
+    border-radius: 3px;
+    background: $white;
+  }
+}
+
+.accordion {
+  &__container {
+    background: $white;
+    margin: 1rem 10px;
+
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 2px $dark-blue15;
+
+    a {
+      color: $grey;
+      display: inline-block;
+      width: 100%;
+      position: relative;
+      padding: 8px;
+      padding-left: 3rem;
+
+      &.show::before {
+        display: block;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 0;
+        border-bottom: 12px solid $blue;
+      }
+
+      &::before {
+        content: " ";
+        position: absolute;
+        top: 14px;
+        left: 1rem;
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 0;
+        border-top: 12px solid $blue;
+      }
+    }
+
+    .inner {
+      overflow: hidden;
+      padding: 8px;
+      color: $grey;
+    }
+  }
+}
+
+.confirmation-headings {
+  margin: 2.6rem auto 1rem;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  .confirmation__number {
+    margin-top: 1rem;
+  }
+
+  .confirm-number {
+    font-size: 24px;
+    @extend %-semi-bold;
+    color: $blue-grey;
+  }
+}
+
+.confirmation-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  background: $white;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px 2px $dark-blue15;
+
+  & > * {
+    margin: 0;
+  }
+
+  &__item {
+    display: grid;
+    padding: 12px 4px;
+    justify-self: stretch;
+    align-self: stretch;
+    border-bottom: 1px solid $pale-bluegrey;
+
+    &:nth-child(odd) {
+      border-right: 1px solid $pale-bluegrey;
+    }
+  }
+
+  .icon-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+.google-map {
+  height: 145px;
+  overflow: hidden;
+}
+
+.address {
+  background: $white;
+  box-shadow: 0 1px 4px 2px $dark-blue15;
+  display: grid;
+  grid-gap: 8px;
+  padding: 0.625rem 1rem;
+  margin-bottom: 2rem;
+
+  &__item {
+    display: inline-grid;
+    grid-template-columns: 1fr 11fr;
+    font-size: 0.875rem;
+
+    span {
+      color: $grey;
+    }
+  }
+}
+
+.contact {
+  padding-bottom: 12px;
+  &-list {
+    grid-gap: 0;
+    padding: 0;
+    .list__item {
+      display: grid;
+      border-bottom: 1px solid $pale-bluegrey;
+      padding: 1rem;
+    }
+  }
+
+  .form-group {
+    grid-gap: 4px;
+    margin: 0;
+  }
+
+  .error {
+    color: $red;
+  }
+}

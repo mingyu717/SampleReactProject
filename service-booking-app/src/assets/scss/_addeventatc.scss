@@ -1,0 +1,48 @@
+/* Hide button at load */
+.addeventatc {
+  visibility: hidden;
+}
+
+/* Make sure the options layer / dropdown is always visible */
+.addeventatc_dropdown {
+  display: block !important;
+}
+
+/* Some demo styling of the options */
+.addeventatc_dropdown span {
+  display: inline-block;
+  margin: 2px;
+  padding: 0px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addeventatc_dropdown .ateoutlook {
+  background: url("../img/icon-calendar-microsoft.svg") no-repeat center center;
+  height: 35px;
+  width: 35px;
+  background-size: cover;
+  margin: 10px;
+}
+
+.addeventatc_dropdown .ategoogle {
+  background: url("../img/icon-calendar-google.svg") no-repeat center center;
+  height: 35px;
+  width: 35px;
+  background-size: cover;
+  margin: 10px;
+}
+
+.addeventatc_dropdown .ateappleical {
+  background: url("../img/icon_calendar_app_2x.svg") no-repeat center center;
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  margin: 10px;
+  margin-bottom: 7px;
+}
+
+/* Remove the AddEvent credits */
+.addeventatc_dropdown .copyx {
+  display: none;
+}

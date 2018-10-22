@@ -1,0 +1,96 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+{
+  "Results": {
+    "PriceListData": [
+      {
+        "JobCode": "62",
+        "JobDescription": "All of the basic services needed to keep your vehicle up to Manufacturer's specification",
+        "Odometer": 100000,
+        "VehicleAgeMonths": 164,
+        "JobPrice": 89.99,
+        "Services": [
+          "som hyppigt opleves i Nordskandinavien.",
+          "rem. Efter en lang kamp med at få etableret sin magt var hans ko.",
+          "har der været 17 jordskælv i størrelsesordenen.",
+          "manniske aristokrati kæmpet med hinanden både for kontrol over barnehertug.",
+          "en magtfuld allieret i hertugdømmet Flandern. Da han blev gift kunne han arrangere aftaler med.",
+          "rholdning ved TV Prisen-uddelingen i 2000. Programmet opnåede kultstatus, hvilket gav sig udtryk i en række fansider og fanklubber samt sto.",
+          "47 formåede Vilhelm at knuse et oprør og begynde at etablere sin.",
+          "Harold under slaget ved Hastings den 14. oktober 1066. Efter yderligere militære interventioner blev Vil.",
+          "p i to, hvilket yderligere skabte splid og utryghed. Samlet .",
+          "t ham tronen, og at Harold havde svoret at støtte Vil."
+        ],
+        "Replacements": [
+          "gen magt. I 1047 formåede Vilhelm at knuse et oprør og begynde.", 
+          "e søn, og truslen om invasioner fra danerne. I 1086 beordrede han.", 
+          "dødsleje i 1055. Vilhelm argumenterede med, at Edvard ti."
+        ]
+      },
+      {
+        "JobCode": "63",
+        "JobDescription": "All of the basic services needed to keep your vehicle up to Manufacturer's specification",
+        "Odometer": 145000,
+        "VehicleAgeMonths": 264,
+        "JobPrice": 89.99,
+        "Services": [
+          "rholdning ved TV Prisen-uddelingen i 2000. Programmet opnåede kultstatus, hvilket gav sig udtryk i en række fansider og fanklubber samt sto.",
+          "47 formåede Vilhelm at knuse et oprør og begynde at etablere sin.",
+          "Harold under slaget ved Hastings den 14. oktober 1066. Efter yderligere militære interventioner blev Vil.",
+          "p i to, hvilket yderligere skabte splid og utryghed. Samlet .",
+          "t ham tronen, og at Harold havde svoret at støtte Vil."
+        ],
+        "Replacements": [
+          "gen magt. I 1047 formåede Vilhelm at knuse et oprør og begynde.", 
+          "e søn, og truslen om invasioner fra danerne. I 1086 beordrede han.", 
+          "dødsleje i 1055. Vilhelm argumenterede med, at Edvard ti."
+        ]
+      },
+      {
+        "JobCode": "64",
+        "JobDescription": "All of the basic services needed to keep your vehicle up to Manufacturer's specification",
+        "Odometer": 180000,
+        "VehicleAgeMonths": 304,
+        "JobPrice": 89.99,
+        "Services": [
+          "manniske aristokrati kæmpet med hinanden både for kontrol over barnehertug.",
+          "en magtfuld allieret i hertugdømmet Flandern. Da han blev gift kunne han arrangere aftaler med.",
+          "rholdning ved TV Prisen-uddelingen i 2000. Programmet opnåede kultstatus, hvilket gav sig udtryk i en række fansider og fanklubber samt sto.",
+          "47 formåede Vilhelm at knuse et oprør og begynde at etablere sin.",
+          "Harold under slaget ved Hastings den 14. oktober 1066. Efter yderligere militære interventioner blev Vil.",
+          "p i to, hvilket yderligere skabte splid og utryghed. Samlet .",
+          "t ham tronen, og at Harold havde svoret at støtte Vil."
+        ],
+        "Replacements": [
+          "gen magt. I 1047 formåede Vilhelm at knuse et oprør og begynde.", 
+          "e søn, og truslen om invasioner fra danerne. I 1086 beordrede han.", 
+          "dødsleje i 1055. Vilhelm argumenterede med, at Edvard ti."
+        ]
+      },
+      {
+        "JobCode": "65",
+        "JobDescription": "All of the basic services needed to keep your vehicle up to Manufacturer's specification",
+        "Odometer": 220000,
+        "VehicleAgeMonths": 364,
+        "JobPrice": 89.99,
+        "Services": [
+          "rholdning ved TV Prisen-uddelingen i 2000. Programmet opnåede kultstatus, hvilket gav sig udtryk i en række fansider og fanklubber samt sto.",
+          "47 formåede Vilhelm at knuse et oprør og begynde at etablere sin.",
+          "Harold under slaget ved Hastings den 14. oktober 1066. Efter yderligere militære interventioner blev Vil.",
+          "p i to, hvilket yderligere skabte splid og utryghed. Samlet .",
+          "t ham tronen, og at Harold havde svoret at støtte Vil."
+        ],
+        "Replacements": [
+          "gen magt. I 1047 formåede Vilhelm at knuse et oprør og begynde.", 
+          "e søn, og truslen om invasioner fra danerne. I 1086 beordrede han.", 
+          "dødsleje i 1055. Vilhelm argumenterede med, at Edvard ti."
+        ]
+      }
+    ]
+  },
+  "Result": {
+    "ErrorCode": 0
+  }
+}

@@ -1,0 +1,46 @@
+.icon {
+  &-back {
+    background: url("../img/icon-back-blue.svg") no-repeat center center;
+    background-size: 100%;
+  }
+
+  &-shoppingCart {
+    background: url("../img/icon-shopping-cart.svg") no-repeat center center;
+    background-size: 100%;
+  }
+
+  &-wrench {
+    background: url("../img/icon-wrench-blue.svg") no-repeat center center;
+    background-size: 100%;
+  }
+
+  &-oil {
+    background: url("../img/icon-oil-blue.svg") no-repeat center center;
+    background-size: 100%;
+  }
+
+  &-arrow-down.blue {
+    background: url("../img/icon-arrow-down-blue.svg") no-repeat center center;
+    background-size: 100%;
+  }
+
+  &-arrow-down.grey {
+    background: url("../img/icon-arrow-down-grey.svg") no-repeat center center;
+    background-size: 100%;
+  }
+
+  &-ticked.white {
+    background: url("../img/icon-ticked-white.svg") no-repeat center center;
+    background-size: 100%;
+  }
+
+  &-cancel.blue {
+    background: url("../img/icon-cancel-blue.svg") no-repeat center center;
+    background-size: 100%;
+  }
+
+  &-cancel.grey {
+    background: url("../img/icon-cancel-grey.svg") no-repeat center center;
+    background-size: 100%;
+  }
+}

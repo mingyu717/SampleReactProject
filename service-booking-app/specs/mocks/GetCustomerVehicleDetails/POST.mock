@@ -1,0 +1,46 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: "CONNECT, DELETE, GET, HEAD, OPTIONS, POST, PUT, TRACE"
+Access-Control-Request-Headers: "Accept, Authorization, Allow, Content-Encoding, Content-Length, Content-Type, ETag, Expires, Last-Modified, Location, Server, Vary"
+Access-Control-Allow-Headers: "Accept, Authorization, Allow, Content-Encoding, Content-Length, Content-Type, ETag, Expires, Last-Modified, Location, Server, Vary"
+Access-Control-Expose-Headers: "Accept, Authorization, Allow, Content-Encoding, Content-Length, Content-Type, ETag, Expires, Last-Modified, Location, Server, Vary"
+Access-Control-Max-Age: "300"
+
+{
+  "Result": {
+    "ErrorCode": 0
+  },
+  "CustomerVehicleDetails": {
+    "VehicleId": 1,
+    "MakeCode": "B",
+    "MakeName": "BMW",
+    "ModelCode": "E87KO",
+    "ModelName": "1 Series (E87)",
+    "VariantCode": "ZV15",
+    "VariantName": "E87 120d SE M47 2.0",
+    "ModelTextDescription": "BMW E87 120d SE M47 2.0",
+    "RegistrationNumber": "YF06ANX",
+    "ChassisNo": "WBAMX120X0DV94702",
+    "EngineNo": "",
+    "ActualPicture": "",
+    "StockPhoto": "",
+    "Odometer": 1,
+    "LastRegisteredDate": "2018-06-05",
+    "DeliveryDate": "2018-06-05",
+    "NextServiceDate": "2018-06-05",
+    "MOTExpiryDate": "2018-06-05",
+    "WarrExpDate": "2018-06-05",
+    "FinanceExpiryDate": "2018-06-05",
+    "NextEmissionsCheckDate": "2018-06-05",
+    "IsCompanyVehicle": true,
+    "TransmissionCode": "5",
+    "TransmissionDesc": "5 Speed Manual Transmission",
+    "FuelCode": "D",
+    "FuelDesc": "Diesel",
+    "EngineSize": 1300,
+    "Colour": "silver",
+    "Trim": "fabric",
+    "FreeDesc": "the car without accidents or collisions"
+  }
+}

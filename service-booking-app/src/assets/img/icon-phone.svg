@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>067-phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI-Confirmation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-15.000000, -765.000000)">
+        <g id="Group-7-Copy" transform="translate(15.000000, 764.000000)" fill="#4A4A4A" fill-rule="nonzero">
+            <g id="067-phone" transform="translate(0.000000, 1.000000)">
+                <path d="M9.53333333,7.8 C8.66666667,8.66666667 8.66666667,9.53333333 7.8,9.53333333 C6.93333333,9.53333333 6.06666667,8.66666667 5.2,7.8 C4.33333333,6.93333333 3.46666667,6.06666667 3.46666667,5.2 C3.46666667,4.33333333 4.33333333,4.33333333 5.2,3.46666667 C6.06666667,2.6 3.46666667,0 2.6,0 C1.73333333,0 0,2.6 0,2.6 C0,4.33333333 1.781,7.84766667 3.46666667,9.53333333 C5.15233333,11.219 8.66666667,13 10.4,13 C10.4,13 13,11.2666667 13,10.4 C13,9.53333333 10.4,6.93333333 9.53333333,7.8 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
